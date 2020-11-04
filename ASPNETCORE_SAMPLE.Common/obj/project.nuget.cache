@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OfcKeOFFOwtSLYPsqpkdvpzDYM4tQZ+4XbZw68I3mdZClJdn7CZaSagM/e2QxtDqOA74EJ9V9DZzW/kWJRW/IQ==",
+  "success": true,
+  "projectFilePath": "/home/mglatki/Dokumenty/coding/ASPNETCORE_SAMPLE/ASPNETCORE_SAMPLE.Common/ASPNETCORE_SAMPLE.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/mglatki/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/mglatki/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
