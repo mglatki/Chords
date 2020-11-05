@@ -3,11 +3,15 @@ using Chords.Common.Interfaces;
 
 namespace Chords.Common.Utilities
 {
-    public class StaticDBHelper
+    public class StaticDBHelper : IDBHelper
     {
+        public StaticDBHelper()
+        {
+            
+        }
         public string GetChord(ISoundsSet soundSet)
         {
-            return "";
+            return "Amol";
         }
 
         public string[] GetChords(ISoundsSet soundSet)
