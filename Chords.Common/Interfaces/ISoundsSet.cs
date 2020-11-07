@@ -4,12 +4,12 @@ namespace Chords.Common.Interfaces
 {
     public interface ISoundsSet
     {
-        string bassEStringFretPushed { get; set; }
-        string aStringFretPushed { get; set; }
-        string dStringFretPushed { get; set; }
-        string gStringFretPushed { get; set; }
-        string hStringFretPushed { get; set; }
-        string eStringFretPushed { get; set; }
+        string bassEStringFretPushed { get; }
+        string aStringFretPushed { get; }
+        string dStringFretPushed { get; }
+        string gStringFretPushed { get; }
+        string hStringFretPushed { get; }
+        string eStringFretPushed { get; }
         string[,] GetSounds();
         void SetSounds(string[,] value);
     }

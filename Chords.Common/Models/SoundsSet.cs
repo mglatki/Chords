@@ -1,5 +1,6 @@
-using System;
 using Chords.Common.Interfaces;
+using System;
+using System.Threading.Tasks;
 
 namespace Chords.Common.Models
 {
@@ -27,12 +28,13 @@ namespace Chords.Common.Models
 
         }
 
-        public string bassEStringFretPushed { get; set; }
-        public string aStringFretPushed { get; set; }
-        public string dStringFretPushed { get; set; }
-        public string gStringFretPushed { get; set; }
-        public string hStringFretPushed { get; set; }
-        public string eStringFretPushed { get; set; }
+        public string bassEStringFretPushed { get; private set; }
+        public string aStringFretPushed { get; private set; }
+        public string dStringFretPushed { get; private set; }
+        public string gStringFretPushed { get; private set; }
+        public string hStringFretPushed { get; private set; }
+        public string eStringFretPushed { get; private set; }
+
         public string[,] GetSounds()
         {
 
@@ -48,6 +50,7 @@ namespace Chords.Common.Models
 
             return arr;
         }
+
         public void SetSounds(string[,] value)
         {
 
