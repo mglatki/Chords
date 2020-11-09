@@ -1,0 +1,11 @@
+.fretboard {
+    display: grid;
+    grid-template-columns: 20px 40px 40px 40px 40px 20px;
+
+}
+
+.fretcell {
+    background-color: antiquewhite;
+    height: 20px;
+    width: 20px;
+}
