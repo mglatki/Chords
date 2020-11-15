@@ -20,11 +20,15 @@
     grid-row-start: 1;
     grid-row-end: -1;
 
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(7, 2fr);
-    grid-template-rows: repeat(5, 1fr);
+    width: 240px; */
+    
+    grid-template-columns: repeat(6, 2fr);
+    background-color: transparent;
     grid-auto-flow: column;
-    width: 240px;
+    grid-template-rows: repeat(5, 1fr);
+    padding: 0 17px;
 }
 
 .bassEStingButtons {
