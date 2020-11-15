@@ -7,7 +7,6 @@
 }
 
 .fretcell {
-    /* background-color: antiquewhite; */
     height: 120px;
     width: 100%;
 }
@@ -20,6 +19,12 @@
     height: 100%;
     grid-row-start: 1;
     grid-row-end: -1;
+
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: column;
+    width: 240px;
 }
 
 .bassEStingButtons {
