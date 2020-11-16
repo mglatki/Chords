@@ -1,7 +1,7 @@
 .fretboard {
     background-color: black;
     display: grid;
-    grid-template-columns: repeat(7,2fr);
+    grid-template-columns: repeat(8,2fr);
     width: 240px;
 
 }
@@ -30,19 +30,23 @@
     height: 40px;
 }
 
+.descriptioncell {
+    background-color: lightgray;
+}
+
 .stringButtons {
     height: 100%;
     grid-row-start: 1;
     grid-row-end: -1;
     
-    grid-template-columns: repeat(6, 2fr);
+    grid-template-columns: repeat(7, 2fr);
     background-color: transparent;
     grid-auto-flow: column;
     grid-template-rows: repeat(3, 1fr) repeat(5, 3fr);
-    padding: 0 17px;
+    padding: 0 16px;
 
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
 }
 
 .stringRadioButton {
