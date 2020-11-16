@@ -15,29 +15,43 @@
     border-right: white solid 1px;
 }
 
+.zerofret {
+    background-color: wheat;
+    height: 40px;
+}
+
+.nonplayed {
+    background-color: brown;
+    height: 40px;
+}
+
+.unknownfret {
+    background-color: brown;
+    height: 40px;
+}
+
 .stringButtons {
     height: 100%;
     grid-row-start: 1;
     grid-row-end: -1;
-
-    /* display: grid;
-    grid-template-columns: repeat(7, 2fr);
-    width: 240px; */
     
     grid-template-columns: repeat(6, 2fr);
     background-color: transparent;
     grid-auto-flow: column;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr) repeat(5, 3fr);
     padding: 0 17px;
-}
 
-.bassEStingButtons {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 6;
 }
 
 .stringRadioButton {
     height: 120px;
     display: block;
-    width: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+.smallStringRadioButton {
+    height: 40px;
 }
